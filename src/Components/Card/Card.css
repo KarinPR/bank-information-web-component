@@ -1,0 +1,60 @@
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2vw;
+  justify-content: space-between;
+/*grid-template-rows: 12px 12px 12px;*/
+}
+table.table-info {
+  /*font-family: "Courier New", Courier, monospace;*/
+  border: 4px solid #555555;
+  background-color: #555f55;
+  color: #b0e4af;
+  width: 35vw;
+  text-align: center;
+  border-collapse: collapse;
+  word-wrap: initial;
+}
+table.table-info td, table.table-info th {
+  border: 1px solid #555f55;
+  padding: 5px 10px;
+}
+table.table-info tbody td {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555f55;
+}
+table.table-info td:nth-child(even) {
+  background: #b0e4af;
+}
+table.table-info thead {
+  background: #b0e4af;
+  background: -moz-linear-gradient(to bottom, #315031 0%, #5ca25a 66%, #b0e4af 100%);
+  background: -webkit-linear-gradient(to bottom, #315031 0%, #5ca25a 66%, #b0e4af 100%);
+  background: linear-gradient(to bottom, #315031 0%, #5ca25a 66%, #b0e4af 100%);
+  border-bottom: 1px solid #A0B99E;
+}
+table.table-info thead th {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  border-left: 2px solid #A0B99E;
+}
+table.table-info thead th:first-child {
+  border-left: none;
+}
+
+table.table-info tfoot td {
+  font-size: 13px;
+}
+table.table-info tfoot .links {
+  text-align: right;
+}
+table.table-info tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
